@@ -8,6 +8,14 @@ Users can also save sessions, load previous configurations, customize device col
 
 ---
 
+---
+Public access:
+
+```
+http://18.191.196.192:8000/
+```
+---
+
 ## **✨ Features Overview**
 
 ### **1. Configuration Panel**
