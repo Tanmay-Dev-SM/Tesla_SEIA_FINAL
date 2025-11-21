@@ -1,0 +1,47 @@
+version: "3.9"
+
+services:
+  mongo:
+    image: mongo:7
+    container_name: mongo
+    restart: unless-stopped
+    environment:
+      MONGO_INITDB_DATABASE: seia_layout
+    volumes:
+      - mongo-data:/data/db
+    ports:
+      - "27017:27017"
+
+  backend:
+    build:
+      context: ./backend
+    container_name: seia-backend
+    restart: unless-stopped
+    env_file:
+      - ./backend/.env
+    environment:
+      # override host for docker network
+      MONGO_URI: mongodb://mongo:27017/seia_layout
+      PORT: 3001
+    ports:
+      - "3001:3001"
+    depends_on:
+      - mongo
+
+  frontend:
+    build:
+      context: ./frontend
+    container_name: seia-frontend
+    restart: unless-stopped
+    env_file:
+      - ./frontend/.env.local   # provides NEXT_PUBLIC_BACKEND_URL=http://localhost:3001
+    environment:
+      BACKEND_INTERNAL_URL: http://backend:3001   # internal hostname
+    ports:
+      - "8000:8000"
+    depends_on:
+      - backend
+
+
+volumes:
+  mongo-data:

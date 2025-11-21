@@ -1,0 +1,70 @@
+.panel {
+  padding: 16px;
+  background: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+}
+
+.title {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-size: 18px;
+}
+
+.button {
+  padding: 6px 12px;
+  border-radius: 4px;
+  border: 1px solid #d1d5db;
+  background: #111827;
+  color: #f9fafb;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.info {
+  margin-top: 8px;
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.loadLabel {
+  font-size: 13px;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.loadRow {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.loadInput {
+  flex: 1;
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: 1px solid #d1d5db;
+  background: #ffffff;
+  color: #111827;
+  font-size: 13px;
+}
+
+.loadButton {
+  padding: 6px 10px;
+  border-radius: 4px;
+  border: 1px solid #d1d5db;
+  background: #111827;
+  color: #f9fafb;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.select {
+  width: 100%;
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: 1px solid #d1d5db;
+  background: #ffffff;
+  color: #111827;
+  font-size: 13px;
+}
