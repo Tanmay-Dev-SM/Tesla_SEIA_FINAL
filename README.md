@@ -318,7 +318,7 @@ Returns:
 
 ---
 
-# ⭐ How the Instant Recalculation Toggle Reduces API Calls**
+# ⭐ How the Instant Recalculation Toggle Reduces API Calls
 
 ### **Instant Recalculation (autoRecalc = true)**
 
