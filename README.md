@@ -7,10 +7,7 @@ The system allows users to configure Megapack battery units, auto-calculate requ
 Users can also save sessions, load previous configurations, customize device colors, and export layout state.
 
 Public access:
-
-```
 http://18.191.196.192:8000/
-```
 
 ---
 
