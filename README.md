@@ -1,8 +1,3 @@
-Below is a **clean, professional, interview-ready README** specifically tailored for your **Tesla SEIA UI Application** assignment.
-It is structured exactly the way reviewers expect: clear scope, architecture, tech choices, screenshots placeholders, setup steps, and deployment notes.
-
-You can copy/paste into your GitHub README.md.
-
 ---
 
 # **Megapack Site Layout Planner**
