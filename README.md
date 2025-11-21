@@ -44,13 +44,13 @@ Implements Tesla’s specification:
 
 * Layout rows are automatically generated
 
-* Alignment options: **Left / Center / Right**
+* Alignment options: **Left / Center / Right** ⭐Extra Feature
 
-* Color-coded device blocks
+* Color-coded device blocks ⭐Extra Feature
 
-* Hover-to-identify each device
+* Hover-to-identify each device ⭐Extra Feature
 
-* Supports row-wise shuffling (visual spacing flexibility)
+* Supports row-wise shuffling (visual spacing flexibility) ⭐Extra Feature
 
 ---
 
@@ -68,17 +68,17 @@ Displays:
 
 ### **4. Session Management**
 
-* Save any configuration (config + colors).
-* Load previously saved sessions.
-* Quick dropdown list of saved sessions with timestamps.
-* On change: UI shows **unsaved changes banner**.
+* Save any configuration (config + colors). ⭐Extra Feature
+* Load previously saved sessions. 
+* Quick dropdown list of saved sessions with timestamps. ⭐Extra Feature
+* On change: UI shows **unsaved changes banner**. ⭐Extra Feature
 
 ---
 
 ### **5. Appearance Settings**
 
-* User can customize colors per device type
-* Colors are persisted within saved sessions
+* User can customize colors per device type ⭐Extra Feature
+* Colors are persisted within saved sessions ⭐Extra Feature
 
 ---
 
@@ -254,6 +254,8 @@ http://18.191.196.192:8000/
 ---
 
 ## **🧪 API Testing**
+
+### api_testing/postman_seia.json - Postman JSON file for API testing
 
 Example:
 
