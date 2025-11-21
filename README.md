@@ -146,7 +146,7 @@ TESLA-SEIA/
 │   ├── lib/
 │   ├── Dockerfile
 │   ├── package.json
-│   └── .env.example
+│   └── .env.local.example
 │
 ├── docker-compose.yml
 └── README.md
@@ -169,12 +169,26 @@ cd tesla-seia
 
 #### **backend/.env**
 
+✏️ As per regular practice we cannot push `.env` values; `.env` is listed in `.gitignore`.
+For demonstration, I committed `.env.example`.
+To run locally, **remove the `.example` suffix** or copy the contents into a new file named `.env`.
+
+Backend 
+.env 
+
 ```
 PORT=3001
 MONGO_URI=mongodb://localhost:27017/seia_layout
 ```
 
 #### **frontend/.env.local**
+
+✏️ Same rule applies. The repo contains `.env.local.example`.
+For local use, **rename to `.env.local`** or create a new one with the same content.
+
+
+Frontend
+.env.local
 
 ```
 BACKEND_INTERNAL_URL=http://localhost:3001
@@ -255,10 +269,15 @@ http://18.191.196.192:8000/
 
 ## **🧪 API Testing**
 
-### File Path were the postman json is located import this directly in postman for backend API testing
-### api_testing/postman_seia.json - Postman JSON file for API testing
+### Path where Postman JSON is located
 
-✏️ Note special edge case route have been added even though the values are checked in frontend and we can't add negative values we still have API validation of negative values
+Import this into Postman for complete backend testing:
+
+```
+api_testing/postman_seia.json
+```
+
+✏️ Even though the frontend prevents negative values, backend API validation still explicitly checks and rejects negative inputs. This ensures the backend is robust and secure regardless of UI constraints.
 
 Example:
 
@@ -296,6 +315,58 @@ Returns:
 ```
 
 ---
+
+---
+
+# ⭐ **NEW SECTION: How the Instant Recalculation Toggle Reduces API Calls**
+
+### **Instant Recalculation (autoRecalc = true)**
+
+When the user edits any input field (e.g., changing MegapackXL from 1→12):
+
+* Every keystroke triggers:
+
+  ```
+  POST /layout/calc
+  ```
+* Example: typing “12”
+
+  * Type "1" → triggers recalculation → **1 API call**
+  * Type "2" → triggers recalculation → **1 more API call**
+
+➡ **Total: 2 API calls** just for typing a two-digit number.
+
+With multiple fields changing rapidly:
+
+* 10–20 API calls may occur in a few seconds.
+* This offers real-time feedback but increases backend load.
+
+---
+
+### **Manual Recalculation (autoRecalc = false)**
+
+When instant mode is disabled:
+
+* Input changes **do not** trigger any backend calls.
+* The system only updates local React state.
+* A red “Unsaved Changes” banner appears.
+* User clicks **Recalculate → only then** one API call is made.
+
+➡ **Total: 1 API call**, no matter how many values were changed.
+
+---
+
+### **Summary Table**
+
+| Action              | Instant Recalc ON | Instant Recalc OFF |
+| ------------------- | ----------------- | ------------------ |
+| User types “12”     | 2 API calls       | 0 API calls        |
+| User edits 4 fields | ~10–20 calls      | 0 calls            |
+| Final recalc        | N/A (auto)        | 1 call             |
+| Total calls         | High              | Very low           |
+
+---
+
 
 ## **🛠 Trade-Offs & Architecture Decisions**
 
@@ -348,3 +419,6 @@ This project demonstrates:
 * High code clarity and reliability
 
 ---
+
+
+
