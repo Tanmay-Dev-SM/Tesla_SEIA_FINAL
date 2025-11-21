@@ -14,7 +14,7 @@ Public access:
 ```
 http://18.191.196.192:8000/
 ```
----
+---https://github.com/Tanmay-Dev-SM/Tesla_SEIA_FINAL/blob/main/README.md
 
 ## **✨ Features Overview**
 
@@ -403,12 +403,10 @@ When instant mode is disabled:
 * Easy to extend for future SEIA layout rules
 
 ---
+## **📷 Screenshot**
 
 ![image alt](https://github.com/Tanmay-Dev-SM/Tesla_SEIA_FINAL/blob/64163fa35e70657faba5b6372cb80eb93e4ea404/assets/HLD_system.png)
 ![image alt](https://github.com/Tanmay-Dev-SM/Tesla_SEIA_FINAL/blob/6370f1e9c617aa542740fb8b1022133ba79dc3c9/assets/pic%20(1).png)
-![image alt]([https://github.com/Tanmay-Dev-SM/Tesla_SEIA_FINAL/blob/64163fa35e70657faba5b6372cb80eb93e4ea404/assets/HLD_system.png](https://github.com/Tanmay-Dev-SM/Tesla_SEIA_FINAL/blob/main/assets/pic%20(3).png?raw=true))
-![image alt]([https://github.com/Tanmay-Dev-SM/Tesla_SEIA_FINAL/blob/64163fa35e70657faba5b6372cb80eb93e4ea404/assets/HLD_system.png](https://github.com/Tanmay-Dev-SM/Tesla_SEIA_FINAL/blob/main/assets/pic%20(4).png?raw=true))
-![image alt]([https://github.com/Tanmay-Dev-SM/Tesla_SEIA_FINAL/blob/64163fa35e70657faba5b6372cb80eb93e4ea404/assets/HLD_system.png](https://github.com/Tanmay-Dev-SM/Tesla_SEIA_FINAL/blob/main/assets/pic%20(7).png?raw=true))
 
 ---
 
