@@ -406,18 +406,7 @@ When instant mode is disabled:
 
 ```md
 ## 📸 Screenshots
-
-### High-Level Diagram
-[![HLD Diagram](assets/HLD_system.png)](https://github.com/Tanmay-Dev-SM/Tesla_SEIA_FINAL/blob/main/assets/HLD_system.png)
-
-### UI Screens
-![Screenshot 1](assets/pic%20%281%29.png)
-![Screenshot 2](assets/pic%20%282%29.png)
-![Screenshot 3](assets/pic%20%283%29.png)
-![Screenshot 4](assets/pic%20%284%29.png)
-![Screenshot 5](assets/pic%20%285%29.png)
-![Screenshot 6](assets/pic%20%286%29.png)
-![Screenshot 7](assets/pic%20%287%29.png)
+![image alt](https://github.com/Tanmay-Dev-SM/Tesla_SEIA_FINAL/blob/64163fa35e70657faba5b6372cb80eb93e4ea404/assets/HLD_system.png)
 ```
 
 ---
