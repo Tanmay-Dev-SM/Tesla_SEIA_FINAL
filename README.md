@@ -14,7 +14,6 @@ Public access:
 ```
 http://18.191.196.192:8000/
 ```
----https://github.com/Tanmay-Dev-SM/Tesla_SEIA_FINAL/blob/main/README.md
 
 ## **✨ Features Overview**
 
