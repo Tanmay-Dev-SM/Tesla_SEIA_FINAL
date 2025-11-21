@@ -409,13 +409,14 @@ When instant mode is disabled:
 ```
 ![HLD Diagram](assets/HLD_system.png)
 
-![Screenshot 1](assets/pic (1).png)
-![Screenshot 2](assets/pic (2).png)
-![Screenshot 3](assets/pic (3).png)
-![Screenshot 4](assets/pic (4).png)
-![Screenshot 5](assets/pic (5).png)
-![Screenshot 6](assets/pic (6).png)
-![Screenshot 7](assets/pic (7).png)
+![Screenshot 1](assets/pic%20%281%29.png)
+![Screenshot 2](assets/pic%20%282%29.png)
+![Screenshot 3](assets/pic%20%283%29.png)
+![Screenshot 4](assets/pic%20%284%29.png)
+![Screenshot 5](assets/pic%20%285%29.png)
+![Screenshot 6](assets/pic%20%286%29.png)
+![Screenshot 7](assets/pic%20%287%29.png)
+
 
 ```
 
