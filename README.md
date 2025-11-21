@@ -255,7 +255,10 @@ http://18.191.196.192:8000/
 
 ## **🧪 API Testing**
 
+### File Path were the postman json is located import this directly in postman for backend API testing
 ### api_testing/postman_seia.json - Postman JSON file for API testing
+
+###✏️ Note special edge case route have been added even though the values are checked in frontend and we can't add negative values we still have API validation of negative values
 
 Example:
 
