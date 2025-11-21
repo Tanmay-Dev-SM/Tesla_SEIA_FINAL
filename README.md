@@ -6,9 +6,6 @@ A full-stack application built for the **Tesla SEIA UI Engineering challenge**.
 The system allows users to configure Megapack battery units, auto-calculate required transformers, compute total energy & cost, and generate a dynamic grid-based site layout with 100 ft max width.
 Users can also save sessions, load previous configurations, customize device colors, and export layout state.
 
-Public access:
-http://18.191.196.192:8000/
-
 ---
 
 ## **✨ Features Overview**
