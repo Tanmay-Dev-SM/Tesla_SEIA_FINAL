@@ -404,10 +404,7 @@ When instant mode is disabled:
 
 ---
 
-```md
-## 📸 Screenshots
 ![image alt]([https://github.com/Tanmay-Dev-SM/Tesla_SEIA_FINAL/blob/64163fa35e70657faba5b6372cb80eb93e4ea404/assets/HLD_system.png](https://github.com/Tanmay-Dev-SM/Tesla_SEIA_FINAL/blob/main/assets/HLD_system.png?raw=true))
-```
 
 ---
 
