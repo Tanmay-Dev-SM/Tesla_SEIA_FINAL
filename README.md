@@ -404,50 +404,6 @@ When instant mode is disabled:
 
 ---
 
-Your images **aren’t loading because GitHub does NOT allow spaces or parentheses in markdown image URLs** unless they are **URL-encoded**.
-
-Your files are named like:
-
-```
-pic (1).png
-pic (2).png
-pic (3).png
-...
-```
-
-Markdown interprets the parentheses as part of the syntax → **the link breaks**.
-
----
-
-# ✅ **Fix: URL-encode your file names**
-
-Replace:
-
-```
-pic (1).png
-```
-
-With:
-
-```
-pic%20(1).png
-```
-
-Spaces → `%20`
-Parentheses are allowed and don't need encoding.
-
----
-
-# ✅ **Correct markdown for your repo**
-
-Your repo path:
-
-```
-https://github.com/Tanmay-Dev-SM/Tesla_SEIA_FINAL/blob/main/assets/
-```
-
-Here is the **fixed markdown** you should paste into README:
-
 ```md
 ## 📸 Screenshots
 
@@ -455,23 +411,14 @@ Here is the **fixed markdown** you should paste into README:
 ![HLD Diagram](assets/HLD_system.png)
 
 ### UI Screens
-![Screenshot 1](assets/pic%20(1).png)
-![Screenshot 2](assets/pic%20(2).png)
-![Screenshot 3](assets/pic%20(3).png)
-![Screenshot 4](assets/pic%20(4).png)
-![Screenshot 5](assets/pic%20(5).png)
-![Screenshot 6](assets/pic%20(6).png)
-![Screenshot 7](assets/pic%20(7).png)
+![Screenshot 1](assets/pic%20%281%29.png)
+![Screenshot 2](assets/pic%20%282%29.png)
+![Screenshot 3](assets/pic%20%283%29.png)
+![Screenshot 4](assets/pic%20%284%29.png)
+![Screenshot 5](assets/pic%20%285%29.png)
+![Screenshot 6](assets/pic%20%286%29.png)
+![Screenshot 7](assets/pic%20%287%29.png)
 ```
-
----
-
-# 🎉 After this, images will load correctly
-
-GitHub will now render each screenshot normally.
-
-If you also want **centered images**, I can give you HTML blocks too.
-
 
 ---
 
@@ -489,8 +436,4 @@ This project demonstrates:
 * High code clarity and reliability
 
 ---
-
-
-
-
 
