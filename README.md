@@ -405,7 +405,7 @@ When instant mode is disabled:
 ---
 
 ![image alt](https://github.com/Tanmay-Dev-SM/Tesla_SEIA_FINAL/blob/64163fa35e70657faba5b6372cb80eb93e4ea404/assets/HLD_system.png)
-![image alt]([https://github.com/Tanmay-Dev-SM/Tesla_SEIA_FINAL/blob/64163fa35e70657faba5b6372cb80eb93e4ea404/assets/HLD_system.png](https://github.com/Tanmay-Dev-SM/Tesla_SEIA_FINAL/blob/main/assets/pic%20(1).png?raw=true))
+![image alt](assets/pic (1).png)
 ![image alt]([https://github.com/Tanmay-Dev-SM/Tesla_SEIA_FINAL/blob/64163fa35e70657faba5b6372cb80eb93e4ea404/assets/HLD_system.png](https://github.com/Tanmay-Dev-SM/Tesla_SEIA_FINAL/blob/main/assets/pic%20(3).png?raw=true))
 ![image alt]([https://github.com/Tanmay-Dev-SM/Tesla_SEIA_FINAL/blob/64163fa35e70657faba5b6372cb80eb93e4ea404/assets/HLD_system.png](https://github.com/Tanmay-Dev-SM/Tesla_SEIA_FINAL/blob/main/assets/pic%20(4).png?raw=true))
 ![image alt]([https://github.com/Tanmay-Dev-SM/Tesla_SEIA_FINAL/blob/64163fa35e70657faba5b6372cb80eb93e4ea404/assets/HLD_system.png](https://github.com/Tanmay-Dev-SM/Tesla_SEIA_FINAL/blob/main/assets/pic%20(7).png?raw=true))
