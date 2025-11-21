@@ -408,7 +408,7 @@ When instant mode is disabled:
 ## 📸 Screenshots
 
 ### High-Level Diagram
-![HLD Diagram](assets/HLD_system.png)
+[![HLD Diagram](assets/HLD_system.png)](https://github.com/Tanmay-Dev-SM/Tesla_SEIA_FINAL/blob/main/assets/HLD_system.png)
 
 ### UI Screens
 ![Screenshot 1](assets/pic%20%281%29.png)
